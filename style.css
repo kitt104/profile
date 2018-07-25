@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(17, 64, 162, 0.1);
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(150, 150, 150);
+}
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+  color: #1140A2;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #B45725;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+table {
+  font-size: 12px;
+}
+
+td {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #B45725;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+.container {
+  width: 1000px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  padding: 20px;
+  background: rgba(240, 240, 240, 1);
+  border-radius: 2px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.1);
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.list-inline {
+  text-decoration: none;
+}
+
+.small-image {
+  width: 400px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px rgba(17, 64, 162, 0.1);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#profile-img {
+  width: 150px;
+  border: 2px solid rgba(17, 64, 162, 0.1);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+
